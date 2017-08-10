@@ -4,6 +4,16 @@
 		<meta charset="utf-8">
 		<title>My first html</title>	
 		<!--This is the format of annotation-->
+	
+		<style type="text/css">
+			#myinput {
+			width:500px;
+			background-color:blue;
+			}
+		</style>
+		<!--used to beautify using id-->
+		<!-annotation must be written outside a pair of <>->
+
 	</head>
 
 	<body>
@@ -68,12 +78,21 @@
 		</form>
 
 		<div id="outer">
-			<div id="inner1">
+			<div id="inner1" class="">
 				<input type="text" />
 			</div>
 			<div id="inner2">
 				<button>great</button>
 			</div>
 		</div>
+		<!--Use class to beautify, use space to separate-->
+
+		<label>effect of css</label>
+		<input type="text" style="width:500px; background-color:red;" />
+		<input type="text" id="myinput">
+
+		<!--Use 'style' and 'id' to beautify, use ';' to separate-->
+
+
 	</body>
 </html>
